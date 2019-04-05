@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spgithubwebinar-webpart-client-side-solution",
+    "id": "dec1fcd6-f3e1-47e5-8cb0-7d29ed7efb9f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/spgithubwebinar-webpart.sppkg"
+  }
+}

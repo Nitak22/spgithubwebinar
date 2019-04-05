@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spgithubwebinar-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spgithubwebinarWebpart/SpgithubwebinarWebpartWebPart.js",
+          "manifest": "./src/webparts/spgithubwebinarWebpart/SpgithubwebinarWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpgithubwebinarWebpartWebPartStrings": "lib/webparts/spgithubwebinarWebpart/loc/{locale}.js"
+  }
+}
